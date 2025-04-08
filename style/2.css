@@ -1,0 +1,82 @@
+body {
+    background-color: #CCD5FF;
+    margin: 0%;
+    padding: 0%
+    
+}
+
+header {
+    background-color: #7CC6FE;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: flex;
+    justify-content: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+}
+header img {
+    width: 200px;
+    mix-blend-mode:color-burn;
+}
+header h2{
+    display: flex;
+    margin-inline-start: 300px;
+    align-items: center;
+
+}
+header a {
+    text-decoration: none;
+    color: black;
+}
+.todo {
+    display: flex;
+}
+.presentacion {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    
+    background-color: #23C9FF;
+    font-optical-sizing: auto;
+    font-weight:100;
+    margin: 20px;
+    width: 300px;
+    border-radius: 70px;
+    overflow: hidden;
+    box-shadow: 0px, 5px, 10px;
+    
+}
+.card h2 {
+    display: flex;
+    justify-content: center;
+}
+.card img {
+    height: 250px;
+    width: 300px;
+}
+.card p {
+    text-align: justify;
+  padding: 20px;
+}
+.card h3 {
+    padding-left: 20px;
+
+}
+.card :hover {
+    transform: scale(1.10);
+}
+.todo {
+    justify-content: center;
+    display: flex;
+}
+footer {
+    margin-top: 130px;
+    
+    
+    display: flex;
+    background-color: #aaaa;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
